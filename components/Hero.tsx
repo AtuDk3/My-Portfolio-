@@ -1,5 +1,6 @@
 
 import React from 'react';
+import profileImg from '/assets/img/profile.png';
 
 const Hero: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const Hero: React.FC = () => {
             <img
               alt="Do Thanh Tu"
               className="h-full w-full object-cover object-top"
-              src="/assets/img/profile.png"
+              src={profileImg}
             />
           </div>
           <div className="max-w-2xl">

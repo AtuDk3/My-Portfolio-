@@ -1,5 +1,8 @@
 
 import { SkillCategory, Project, ExperienceItem } from './types';
+import medicalBookingImg from '/assets/img/medical-booking.png';
+import tourBookingImg from '/assets/img/tour-booking.png';
+import movieWebsiteImg from '/assets/img/movie-website.png';
 
 export const NAV_LINKS = [
   { name: 'About', href: '#about' },
@@ -68,7 +71,7 @@ export const PROJECTS: Project[] = [
     description: 'Developed a microservices-based healthcare platform with a patient booking portal, supporting appointment scheduling, secure payments, and an AI-powered symptom analysis module.',
     role: 'Designed scalable microservices using .NET 8 and Clean Architecture. Built core services (AI, Doctor, Hospital), implemented event-driven communication (RabbitMQ, gRPC), and developed patient/admin SPAs.',
     tags: ['.NET 8', 'Microservices', 'React', 'RabbitMQ', 'Docker'],
-    image: '/assets/img/medical-booking.png',
+    image: medicalBookingImg,
     codeUrl: 'https://github.com/Capstone-FA25-MABS',
   },
   {
@@ -76,7 +79,7 @@ export const PROJECTS: Project[] = [
     description: 'Developed an online tour booking system supporting tour browsing, booking management, user authentication, and online payment.',
     role: 'Developed both frontend (React.js) and backend (.NET). Designed and managed the SQL Server database. Deployed the application on Microsoft Azure.',
     tags: ['.NET', 'React.js', 'SQL Server'],
-    image: '/assets/img/tour-booking.png',
+    image: tourBookingImg,
     codeUrl: 'https://github.com/AtuDk3/Tour-Booking-Website',
   },
   {
@@ -84,7 +87,7 @@ export const PROJECTS: Project[] = [
     description: 'Developed a movie website that allows users to search, filter, and rate movies, providing detailed information such as descriptions, cast members, and user reviews.',
     role: 'Built the frontend using Angular. Developed RESTful APIs with Spring Boot. Integrated backend APIs with the frontend.',
     tags: ['Spring Boot', 'Angular', 'MySQL'],
-    image: '/assets/img/movie-website.png',
+    image: movieWebsiteImg,
     codeUrl: 'https://github.com/AtuDk3/MovieWebsiteJA/tree/tu',
   },
 ];
