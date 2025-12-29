@@ -13,11 +13,11 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-12">
             <a 
-              href="mailto:tu.do@example.com" 
+              href="mailto:dothanhtu240803@gmail.com" 
               className="group flex items-center gap-3 rounded-lg bg-white/10 px-6 py-3 backdrop-blur-sm transition-colors hover:bg-white/20"
             >
               <span className="material-symbols-outlined">mail</span>
-              <span className="font-semibold">tu.do@example.com</span>
+              <span className="font-semibold">dothanhtu240803@gmail.com</span>
             </a>
             <a 
               href="https://github.com/AtuDk3" 

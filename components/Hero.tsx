@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
           <div className="relative h-32 w-32 sm:h-40 sm:w-40 overflow-hidden rounded-full border-4 border-white shadow-lg">
             <img
               alt="Do Thanh Tu"
-              className="h-full w-full object-cover"
-              src="https://picsum.photos/seed/profiletu/400/400"
+              className="h-full w-full object-cover object-top"
+              src="/assets/img/profile.png"
             />
           </div>
           <div className="max-w-2xl">
@@ -21,8 +21,7 @@ const Hero: React.FC = () => {
               Backend Programmer
             </p>
             <p className="mx-auto max-w-xl text-lg text-[#4f5b6e] leading-relaxed">
-              Specializing in building robust architectures, scalable APIs, and efficient database solutions. 
-              Passionate about clean code and continuous learning.
+              I am a recent Information Technology graduate with a strong interest in software development and system management. I am eager to learn new technologies, improve my technical skills, and contribute to building efficient and reliable software solutions.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
