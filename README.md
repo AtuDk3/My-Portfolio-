@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Do Thanh Tu - Backend Developer Portfolio
 
-# Run and deploy your AI Studio app
+Portfolio website showcasing my projects, skills, and experience as a Backend Developer.
 
-This contains everything you need to run your app locally.
+## 🌐 Live Demo
+**https://atudK3.github.io/My-Portfolio-/**
 
-View your app in AI Studio: https://ai.studio/apps/drive/18MvAlPsz7u4d0E32GlnDjXghNV2z3Bo3
+## 🚀 Tech Stack
+- React 19 + TypeScript
+- Vite
+- Tailwind CSS
+- Material Symbols Icons
 
-## Run Locally
+## 💻 Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open http://localhost:3000
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 🚢 Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
+
+## 📁 Project Structure
+
+```
+├── components/          # React components
+├── assets/img/         # Images and favicon
+├── constants.tsx       # Data constants
+├── types.ts           # TypeScript types
+└── App.tsx            # Main app component
+```
+
+## 📧 Contact
+- Email: tu.do@example.com
+- GitHub: [@AtuDk3](https://github.com/AtuDk3)
+- Location: Da Nang, Vietnam
